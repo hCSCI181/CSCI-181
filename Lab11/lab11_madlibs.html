@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mad Libs</title>
+</head>
+
+<body>
+	<h1> Mad Libs </h1>
+
+    <form>
+      Enter an adjective: <input type="text" id="adjective">
+			<br>
+			Enter a verb: <input type="text" id="verb">
+			<br>
+			Enter an adverb: <input type="text" id="adverb">
+
+      <br>
+
+      <button onclick="myFunction()">Submit</button>
+    </form>
+
+<script>
+
+		function myFunction() {
+
+      var x = document.getElementById("adjective").value;
+			var y = document.getElementById("verb").value;
+			var z = document.getElementById("adverb").value;
+      alert("It was really " + x +", and we " + y + " ourselves " + z);
+    }
+
+	</script>
+</body>
+</html>

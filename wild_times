@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Adventures in Tuscany</title>
+   <meta charset="utf-8">
+   <style type="text/css">
+	body {background-color: #ede49c;}
+   </style>
+</head>
+
+<heading>
+  <h1>Wild Times Summer Camp</h1>
+  <h2>A Summer Camp for Young Outdoors Enthusiasts</h2>
+  <h3>July 7th-14th, 2019</h3>
+</heading>
+
+<p>The Wild Times Summer Camp is <em>the ultimate</em> summer adventure camp for those who like spending their days in the wild and getting dirty. The Wild Times Camp is for young outdoor enthusiasts between the ages of 14 to 17 years old. Your days during this summer camp will be spent in the backcountry of Western Montana camping, kayaking, rock climbing, and hiking. You'll learn how to build fires, practice Leave No Trace (LNT) principles, identify plants, trees, birds, and other animals that live in Montana. During this week long camp, you'll also make close friendships with other rad people and learn from one another. Join us for a awe-inspiring and fun time! Bring your sunscreen, young folks!</p>
+
+<table>
+  <tr>
+    <th>Monday</th>
+    <th>Tuesday</th>
+    <th>Wednesday</th>
+    <th>Thursday</th>
+    <th>Friday</th>
+    <th>Saturday</th>
+    <th>Sunday</th>
+  </tr>
+  <tr>
+    <td>
+
+
+<body>
+
+
+</body>
+</html>

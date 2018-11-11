@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab 10 Example</title>
+</head>
+<body>
+	<h1>Lab 10</h1>
+	<script>
+		// 1. Create the variable "name" and assign it a string 
+		// value that is your first name (2 pts)
+		var name = "Adam";
+
+		// 2. If the value of "name" is identical to "Yolanda", 
+		// show the user a dialog box that says, "That's my name too!"
+		// (3 pts)
+		if (name == "Yolanda") {
+			alert("That's my name too!");
+		}
+
+		// 3. Create the variable "myVariable" and assign it a number
+		// between 1 and 10...
+		var myVariable = Math.floor(Math.random()*10) + 1;
+		// If my Variable is greater than five show the user a dialog
+		// that says, "upper"...
+		if (myVariable > 5) {
+			alert("upper");
+		}
+		// If not, show the user a dialog that says, "lower". (5 pts)
+		else {
+			alert("lower");
+		}
+
+		// 4. Create a variable called "friends" and assign it to an
+		// array with four of your friends' names. (2 pts)
+		var friends = ['Tom', 'Eli', 'Zhawn', 'Cory'];
+
+		// 5. Show the user a dialog that displays the third name in 
+		// your list of friends. (3 pts)
+		alert(friends[2]);
+
+		// 6. Create a loop that cycles through all of the names in 
+		// your friends array and alerts each one. (5 pts)
+		for (var i = 0; i<friends.length; i++) {
+			alert('Friend ' + i + ': ' + friends[i]);
+		}
+	</script>
+</body>
+</html>

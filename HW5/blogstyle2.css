@@ -1,0 +1,51 @@
+body {
+  background-image: url(images/wolf5.png), url(images/elk.png);
+}
+body {
+  text-align: left;
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin-top: 40px;
+  background-image: url(images/wolf5.png), url(images/elk.png);
+  background-size: auto, 2000px 2400px;
+  background-repeat: no-repeat;
+  background-position: 50% 170%, center center;
+  background-attachment: fixed, scroll;
+  color: white;
+}
+#header {
+  margin: 20px;
+  padding: 3em 1em 2em 1em;
+  text-align: left;
+  background-color: rgb(28, 67, 102);
+}
+h1 {
+  font: bold 3em Georgia;
+  text-transform: uppercase;
+  text-align: left;
+  text-shadow: .1em .1em .2em lightblue;
+  color: #000;
+}
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  color: white;
+}
+.article {
+  border: 4px solid rgb(28, 67, 102);
+}
+#footer {
+  margin: 30px;
+  background-color: rgb(28, 67, 102);
+  text-align: left;
+  color: white;
+}
+a:link {
+    color: white;
+}
+/* visited link */
+a:visited {
+    color: purple;
+}

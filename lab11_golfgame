@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Golf Game</title>
+</head>
+
+<body>
+
+	<script>
+		// Your code goes here!
+	//	var foo="5";
+		//bar="5"
+	//	alert(foo + bar)
+		//confirm("i'm going to enter something")
+		//prompt("what should i do")
+		/*var foo = [6, five, "Haley", true];
+		if (foo[0]== 5){
+			alert("1st element is number 5");
+		} else {
+			alert("Not number 5")
+		}
+
+
+
+
+		var foo = [6, five, "Haley", true];
+		if (foo[0]!== 5){
+			alert("1st element is number 5");
+		} else {
+			alert("Not number 5")
+		}
+
+*/
+		var foo = [6, five, "Haley", true, "1", 10];
+		/*if (6 >+ 5){
+			alert("1st element is number 5");
+		} else {
+			alert("Not number 5")
+		}
+		*/
+		for (var i=0; i< foo.length; i++) {
+		//alert ("hello")
+			alert (foo[i]);
+		}
+
+
+	</script>
+</body>
+</html>

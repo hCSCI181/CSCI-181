@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Golf Game</title>
+</head>
+
+<body>
+
+	<script>
+// var result;
+function myFunction(par, strokes) {
+	var result;
+  var pars = ["Hole-in-One!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey"];
+  if (strokes == 1) {
+		 result = pars[0];
+	 }
+  else if (strokes <= par - 2) {
+		 result = pars[1];
+	 } else if (strokes == par-1) {
+		result = (pars[2]);
+}	else if (strokes==par) {
+		result= (pars[3]);s
+} else if (strokes==par+1) {
+		result= (pars[4]);
+}else if (strokes==par+2) {
+		result= (pars[5]);
+}	else {
+	result = "Go Home!"
+}
+
+return result;
+}
+
+var x = myFunction(3, 4);
+alert(x);
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Text Input</title>
+</head>
+
+<body>
+	<h1> Hello script </h1>
+
+    <form>
+			/*Must give id so that javascript can find it*/
+      Enter your Name: <input type="text" id="myText">
+      <br>
+
+
+      <button onclick="myFunction()">Submit</button>
+    </form>
+
+<script>
+
+		function myFunction() {
+
+      var x = document.getElementById("myText").value;
+      alert("Hello " + x +", it's nice to meet you!");
+    }
+
+
+	</script>
+</body>
+</html>

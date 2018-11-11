@@ -1,0 +1,12 @@
+Relative images
+<img src="googlelogo.png" alt="google logo">
+
+Tables
+<table>
+  <tr> table row
+    <th> table header</th>
+    <th>another head</th>
+    <th> another header</th>
+  </tr>
+
+</table>

@@ -1,0 +1,40 @@
+   ol {
+  list-style-type: upper-roman;
+   }
+   #header {
+     padding: 30px;
+     background: url(images/trees.jpeg) no-repeat center center;
+     color: white;
+   }
+   body{
+     background-image: url(images/texturewood.jpg)
+   }
+   #footer {
+     background: url(images/mountains.png) no-repeat center center;
+     text-align: center;
+   }
+   .article {
+     background-color: rgba(99, 132, 103, .5);
+     padding: 10px;
+     margin-top: 10px;
+   }
+   h1{
+     font-size: 50px;
+     font-family: georgia;
+     text-align: center;
+   }
+   h2{
+     font-family: "Times New Roman";
+     text-align: center;
+   }
+   h3{
+     border: 3px solid rgba(99, 132, 103, .5);
+     font-family: "Times New Roman";
+     text-align: center;
+   }
+   p{
+     font-family: georgia;
+   }
+  td{
+    text-align: center;
+  }
